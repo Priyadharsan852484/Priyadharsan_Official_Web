@@ -1,3 +1,191 @@
-h1{
+body {
+    margin: 0;
+    
+    font-family: 'Parkinsans', sans-serif; 
+}
+#tlogo{
+    align-items: center ;
+    justify-content: center ;
+    box-shadow: 0px 0px 10px #daa520;
+    
+}
+#project img {
+    border-radius: 30px;
+    width: 50%;
+    height: auto; 
+}
+#project{
+    align-items: center;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px #b6780f;
+    margin: 5%;
+    
+    color: #ff9d00;
+        padding: 15px;
+}
+#projnamename a {
+    text-decoration: none; 
+}
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    box-shadow: 0 5px 20px #ff9d00;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: #fff;
+    flex-wrap: nowrap;
+}
+
+#nav_button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+#nav_button:focus {
+    outline: none;
+}
+
+.title {
+    margin: 0;
+    background: linear-gradient(to right, #ffdc00, #ff4900);
+    text-shadow: 5px 0px 80px #daa520;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
     text-align: center;
+    white-space: nowrap;
+}
+
+#part {
+    align-items: center;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px #ff9d00;
+    margin: 5%;
+    padding: 15px;
+}
+
+#t2 {
+    font-family: ubuntu;
+    color: #ff9d00;
+}
+
+#about_content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#logo {
+    width: 85%;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 0 5px 20px #ff9d00;
+    border-radius: 20px;
+    overflow: hidden;    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+a img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.skill-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+ol li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #title {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #nav_button {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    #part {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    #title {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #nav_button {
+        font-size: 18px;
+    }
 }
